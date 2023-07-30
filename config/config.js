@@ -1,14 +1,14 @@
+import { } from '@fortawesome/free-solid-svg-icons';
 
-import profile from './profile.png';
+import { faAppStore, faChrome, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
+
 import dormguide1 from './dormguide1.png';
 import dormguide2 from './dormguide2.png';
 import dormguide3 from './dormguide3.png';
 import dormguide4 from './dormguide4.png';
 import dormguide5 from './dormguide5.png';
 import dormguide6 from './dormguide6.png';
-
-import { faAppStore, faGithub, faGooglePlay, faChrome } from '@fortawesome/free-brands-svg-icons';
-import { } from '@fortawesome/free-solid-svg-icons';
+import profile from './profile.png';
 
 export const navigation = {
 	name: "Wesley",
@@ -33,7 +33,7 @@ export const navigation = {
 }
 export const intro = {
 	title: "Hey, I'm Wesley",
-	description: "A Computer Science senior at Georgia Institute of Technology",
+	description: "A Full Stack Developer passionate about learning and creating better user experinces",
 	image: profile.src,
 	buttons: [
 		{
@@ -52,9 +52,8 @@ export const intro = {
 export const about = {
 	title: "Who I am",
 	description: [
-		"I am a senior at Georgia Institute of Technology graduating Fall 2022 with a degree in Computer Science with specialties in people and information networks. I have been heavily investing my time learning new skills in front end development these past two years",
-		"I have worked hard this past year on three major projects: HipHop2020, dormguide, and MusicEditor",
-		"The tech industry is quickly evolving which is why I am proud to have spent years developing skills in Java, algorithms, data structures, and design that have allowed me to bring that knowledge to every team I am a part of. I believe in the power of open-source and collaboration as the only way to beat the ever increasing complexity of development is with help. I love the challenge of learning new skills so I welcome the opportunity to visit an unfamiliar tech stack.",
+		"The tech industry is quickly evolving which is great because I love learning new platforms and frameworks that enable better user or development experinces.",
+		"I enjoy bringing the drive to make the best product possible to every team I am a part of.",
 	],
 }
 
@@ -62,20 +61,30 @@ export const work = {
 	title: "What I do",
 	cards: [
 		{
+			title: "Javascript",
+			description: `"Any application that can be written in JavaScript, will eventually be written in JavaScript." - Jeff Atwood`,
+			icons: null,
+		},
+		{
 			title: "Mobile App Development",
 			description: "I create pixel perfect iOS and Android apps using React Native.",
 			icons: null,
 		},
 		{
 			title: "Web Development",
-			description: "I have lead an institute funded team since 2021 in replacing outdated interfaces.",
+			description: "I have lead an institute funded team in replacing outdated interfaces.",
 			icons: null,
 		},
 		{
-			title: "Java Development",
-			description: "I have been using Java for school and work for over 6 years.",
+			title: "Full Stack Development",
+			description: "I currently work at Presso in as a Full Stack Developer bringing our internal tools to the next level.",
 			icons: null,
-		}
+		},
+		{
+			title: "Java",
+			description: "Java was my first programming language and I have used it for work, school, and projects over a decade.",
+			icons: null,
+		},
 
 	],
 }
